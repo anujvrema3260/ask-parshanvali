@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Sai Baba</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ask Sai Baba</h1>
+        <p>Click on the image to receive a devotional answer from Sai Baba.</p>
+        <div class="image-container">
+            <img src="sai-baba.jpg" alt="Sai Baba" onclick="showAnswer()">
+        </div>
+        <div id="answer" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p id="devotional-answer"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
